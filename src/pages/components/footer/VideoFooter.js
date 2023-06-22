@@ -1,5 +1,6 @@
 import React from 'react'
 import './videoFooter.css'
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
 
 function VideoFooter() {
     return (
@@ -8,8 +9,10 @@ function VideoFooter() {
                 <h3>@Paulo Ebac</h3>
                 <p>Descrição do vídeo</p>
                 <div className="videoFooter__music">
-                    <p>Icone</p>
-                    <p>Titulo da música</p>
+                    <MusicNoteIcon className="videoFooter__icon"/>
+                    <div className="videoFooterMusic__text">
+                        <p>Titulo da música</p>
+                    </div>
                 </div>
             </div>
             <img
