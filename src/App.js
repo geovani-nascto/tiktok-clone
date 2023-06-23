@@ -6,6 +6,11 @@ import { collection, getDocs } from 'firebase/firestore/lite'
 
 function App() {
 
+    let maxHeight;
+    if(window.innerHeight <= 800){
+        maxHeight = window.innerHeight;
+    }
+
     const [video, setVideos] = useState([])
 
     async function getVideos(){
@@ -20,7 +25,7 @@ function App() {
     }, [])
 
     return (
-        <div className="App">
+        <div className="App" style={{ maxHeight: maxHeight + "px" }}>
             <div className="app__videos">
 
                 { video.map((item) => {
@@ -36,25 +41,6 @@ function App() {
                         />
                     )
                 })}
-
-                {/* <Video
-                    likes={321}
-                    messages={231}
-                    shares={38}
-                    name="Pedro"
-                    description="Bird olhando para a câmera"
-                    music="Clap your hands"
-                    url="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/bird.mp4?t=2023-05-22T19%3A40%3A47.052Z"
-                /> */}
-                {/* <Video
-                    likes={246}
-                    messages={172}
-                    shares={21}
-                    name={""}
-                    descriptions={""}
-                    music={""}
-                    url={""}
-                /> */}
             </div>
         </div>
     );
