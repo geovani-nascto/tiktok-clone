@@ -4,7 +4,7 @@
 
 <h1 align="center">
     <img src="https://ik.imagekit.io/geovani/Captura_de_tela_de_2023-06-23_15-19-05.png?updatedAt=1687544370068">
-    <p>Aqui um exemplo de um vídeo aleatório que foi adicionado como exemplar, baixado da plataforma e incluído no [Firebase](https://firebase.google.com/?hl=pt-br)</p>
+    <p>Aqui um exemplo de um vídeo aleatório que foi adicionado como exemplar, baixado da plataforma e incluído no Google Firebase.</p>
 </h1>
 
 
