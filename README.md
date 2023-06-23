@@ -4,8 +4,8 @@
 
 <h1 align="center">
     <img src="https://ik.imagekit.io/geovani/Captura_de_tela_de_2023-06-23_15-19-05.png?updatedAt=1687544370068">
-    <p>Aqui um exemplo de um vídeo aleatório que foi adicionado como exemplar, baixado da plataforma e incluído no Google Firebase.</p>
 </h1>
+<p>Acima um exemplo de um vídeo aleatório que foi adicionado como exemplar, baixado da plataforma e incluído no Google Firebase.</p>
 
 
 <h1 align="center"><a href="https://tiktok-4fbac.web.app/">Acesse o site</a></h1>
