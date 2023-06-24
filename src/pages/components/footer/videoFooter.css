@@ -3,11 +3,18 @@
     bottom: 20%;
     color: white;
     margin-left: 30px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.videoFooter__text{
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 .videoFooter__text h3,
 .videoFooter__text p{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .videoFooter__text p{
@@ -16,6 +23,7 @@
 
 .videoFooter__music{
     display: flex;
+    margin-top: 20px;
 }
 
 .videoFooterMusic__text{
