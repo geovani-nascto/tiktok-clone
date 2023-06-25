@@ -1,9 +1,11 @@
 .videoFooter{
-    position: absolute;
-    bottom: 10px;
+    position: relative;
+    /* position: absolute; */
+    bottom: 20%;
+    /* bottom: 10px; */
     color: white;
     margin-left: 30px;
-    width: 95%;
+    /* width: 95%; */
     /* display: flex;
     flex-direction: column; */
 }
@@ -18,13 +20,13 @@
     margin-bottom: 20px;
 }
 
-.videoFooter__text > p{
+/* .videoFooter__text > p{
     width: 85%;
-}
+} */
 
-.videoFooter__text p{
+/* .videoFooter__text p{
     max-width: 90%;
-}
+} */
 
 .videoFooter__music{
     display: flex;
