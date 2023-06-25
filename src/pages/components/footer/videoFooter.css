@@ -10,12 +10,15 @@
 .videoFooter__text{
     max-height: 200px;
     overflow-y: auto;
-    max-width: 95%;
 }
 
 .videoFooter__text h3,
 .videoFooter__text p{
     margin-bottom: 20px;
+}
+
+.videoFooter__text > p{
+    max-width: 95%;
 }
 
 .videoFooter__text p{
